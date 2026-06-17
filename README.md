@@ -191,7 +191,22 @@ Classificação
 Resultado
 ```
 
-## Resultados
+🚀 Como Executar o Projeto
+bash
+# Criar ambiente virtual
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Executar servidor
+uvicorn backend.main:app --reload
+
+Acesse a documentação interativa em:
+👉 http://127.0.0.1:8000/docs  
+👉 http://127.0.0.1:8000/redoc
 
 
 
