@@ -52,11 +52,14 @@ O dataset já possui separação em:
 - Validation
 - Test
 
+Ferramenta de anotação: não utilizada, pois o dataset já era pré-rotulado
+
 ## Modelo Base Utilizado
 
 ### Modelo Escolhido
 
 YOLO11n-cls
+Modelo treinado: best.pt
 
 ### Justificativa da Escolha
 
@@ -75,6 +78,7 @@ O modelo foi treinado utilizando o dataset Banana Ripeness Classification Datase
 * Top-1 Accuracy: 99,11%
 * Top-5 Accuracy: 100%
 * Loss final (val): ~0.05
+* Fitness: 99.55%
 
 ### Arquivos Gerados
 
@@ -203,7 +207,7 @@ bash
 pip install -r requirements.txt
 
 # Executar servidor
-uvicorn backend.main:app --reload
+uvicorn main:app --reload
 
 Acesse a documentação interativa em:
 👉 http://127.0.0.1:8000/docs  
