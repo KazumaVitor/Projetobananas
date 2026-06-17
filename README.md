@@ -31,6 +31,7 @@ Banana Ripeness Classification Dataset (Kaggle).
 - Ripe (Madura)
 - Overripe (Muito madura)
 - Rotten (Estragada)
+ Dataset já previamente rotulado (não foi necessária anotação manual)
 
 ### Quantidade de imagens de treino
 
@@ -73,6 +74,7 @@ O modelo foi treinado utilizando o dataset Banana Ripeness Classification Datase
 
 * Top-1 Accuracy: 99,11%
 * Top-5 Accuracy: 100%
+*Loss final (val): ~0.05
 
 ### Arquivos Gerados
 
@@ -146,7 +148,7 @@ O arquivo treinado do modelo encontra-se disponível em:
 
 `models/best.pt`
 
-ou através do link disponibilizado no Google Drive da equipe.
+ou através do link disponibilizado no Google Drive da equipe:https://drive.google.com/drive/my-drive?hl=pt-br
 
 
 ### Tarefa
