@@ -194,9 +194,10 @@ Resultado
 🚀 Como Executar o Projeto
 bash
 # Criar ambiente virtual
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+
+-python -m venv venv
+-source venv/bin/activate   # Linux/Mac
+-venv\Scripts\activate      # Windows
 
 # Instalar dependências
 pip install -r requirements.txt
