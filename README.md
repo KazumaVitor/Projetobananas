@@ -134,17 +134,17 @@ Saída:
 }
 ```
 
-## Interface Gráfica
+💻 Interface da Aplicação
 
-A aplicação possui uma interface web desenvolvida pela equipe utilizando HTML, CSS e JavaScript.
+A interface foi desenvolvida em HTML, CSS e JavaScript.
 
 Funcionalidades:
-
-* Upload de imagem.
-* Envio da imagem para a API.
-* Exibição da classificação da banana.
-* Exibição da confiança da predição.
-* Exibição de recomendação baseada no estágio de maturação.
+-Upload de imagem
+-Upload de vídeo
+-Envio para API
+-Exibição da classe prevista
+-Exibição da confiança
+-Recomendação baseada na maturação
 
 ## Pesos do Modelo
 
@@ -152,8 +152,12 @@ O arquivo treinado do modelo encontra-se disponível em:
 
 `models/best.pt`
 
-ou através do link disponibilizado no Google Drive da equipe:https://drive.google.com/drive/my-drive?hl=pt-br
-
+📁 Pasta principal do projeto:
+https://drive.google.com/drive/folders/1rgMQVK43-bKSp5hebsbznPT5GcZbjR_g
+📄 Arquivo do modelo treinado:
+https://drive.google.com/file/d/1Ira8kEDKRT_m0BMb17zMjoz35qWKOV1l/view
+📁 Pasta adicional de recursos:
+https://drive.google.com/drive/folders/1SmelOACMwDvHuL3ABMJSaSmi3rCT5Geo
 
 ### Tarefa
 
@@ -182,17 +186,17 @@ ProjetoBananas/
 
 ## Fluxo da Aplicação
 
-Imagem
+Imagem/Vídeo
    ↓
 Frontend
    ↓
 API FastAPI
    ↓
-YOLO
+Modelo YOLO (best.pt)
    ↓
 Classificação
    ↓
-Resultado
+Resultado exibido ao usuário
 ```
 
 🚀 Como Executar o Projeto
