@@ -74,7 +74,7 @@ O modelo foi treinado utilizando o dataset Banana Ripeness Classification Datase
 
 * Top-1 Accuracy: 99,11%
 * Top-5 Accuracy: 100%
-*Loss final (val): ~0.05
+* Loss final (val): ~0.05
 
 ### Arquivos Gerados
 
