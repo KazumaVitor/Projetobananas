@@ -230,7 +230,7 @@ Acesse a documentação interativa em:
 
 ## Referências
 
-- Dataset: Banana Ripeness Classification Dataset (Kaggle)
+- Dataset: Banana Ripeness Classification Dataset (Kaggle):https://www.kaggle.com/datasets/shahriar26s/banana-ripeness-classification-dataset
 - Ultralytics YOLO
 - FastAPI
 
