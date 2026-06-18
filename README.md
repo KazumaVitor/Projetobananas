@@ -54,12 +54,21 @@ O dataset já possui separação em:
 
 Ferramenta de anotação: não utilizada, pois o dataset já era pré-rotulado
 
-## Modelo Base Utilizado
 
 ### Modelo Escolhido
 
 YOLO11n-cls
 Modelo treinado: best.pt
+
+Configuração do Treinamento
+Modelo: YOLO11n-cls
+Número de épocas: 50
+Tamanho das imagens: 224x224
+Batch size: 16
+Hardware utilizado:
+CPU: Intel Core i5-xxxx
+GPU: T4
+RAM: 16 GB
 
 ### Justificativa da Escolha
 
