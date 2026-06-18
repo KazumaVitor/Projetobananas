@@ -66,7 +66,7 @@ Número de épocas: 50
 Tamanho das imagens: 224x224
 Batch size: 16
 Hardware utilizado:
-CPU: Intel Core i5-xxxx
+CPU: Intel Core i5-1135G7
 GPU: T4
 RAM: 16 GB
 
